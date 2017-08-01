@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="2" name="TestSuite" time="125.516" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui/target/surefire/surefirebooter7170094002812700876.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/sm/hj435yss0cb4l3l3n3234jm40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/roger/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui/target/test-classes:/Users/roger/my_gitlab_project/youku_testautomation/autoui/target/classes:/Users/roger/.m2/repository/macaca/webdriver/client/macacaclient/2.0.11/macacaclient-2.0.11.jar:/Users/roger/.m2/repository/macaca/java/biz/1.1.4/biz-1.1.4.jar:/Users/roger/.m2/repository/com/alibaba/fastjson/1.2.15/fastjson-1.2.15.jar:/Users/roger/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/roger/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/roger/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/roger/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/roger/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/roger/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/roger/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/roger/.m2/repository/org/hamcrest/hamcrest-library/1.2/hamcrest-library-1.2.jar:/Users/roger/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/roger/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/roger/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/roger/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/roger/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/roger/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.4"/>
+    <property name="user.home" value="/Users/roger"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="roger"/>
+    <property name="java.class.path" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui/target/test-classes:/Users/roger/my_gitlab_project/youku_testautomation/autoui/target/classes:/Users/roger/.m2/repository/macaca/webdriver/client/macacaclient/2.0.11/macacaclient-2.0.11.jar:/Users/roger/.m2/repository/macaca/java/biz/1.1.4/biz-1.1.4.jar:/Users/roger/.m2/repository/com/alibaba/fastjson/1.2.15/fastjson-1.2.15.jar:/Users/roger/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/roger/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/roger/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/roger/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/roger/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/roger/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/roger/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/roger/.m2/repository/org/hamcrest/hamcrest-library/1.2/hamcrest-library-1.2.jar:/Users/roger/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/roger/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/roger/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/roger/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/roger/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/roger/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui/target/surefire/surefirebooter7170094002812700876.jar /Users/roger/my_gitlab_project/youku_testautomation/autoui/target/surefire/surefire3759628638850476958tmp /Users/roger/my_gitlab_project/youku_testautomation/autoui/target/surefire/surefire2869082328687540055tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/Users/roger/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/roger/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_channelPageTest" time="33.227"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_channelPageTest" time="8.074"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_downLoadTest" time="6.335">
+    <failure message="com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray" type="java.lang.ClassCastException">java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at macaca.client.MacacaClient.findElements(MacacaClient.java:207)
+	at macaca.client.MacacaClient.elementsByClassName(MacacaClient.java:678)
+	at macaca.client.MacacaClient.getElementSelector(MacacaClient.java:434)
+	at macaca.client.MacacaClient.countOfElements(MacacaClient.java:410)
+	at macaca.java.biz.BaseMacacaClient.countOfElment(BaseMacacaClient.java:97)
+	at com.youku.pages.VideoDetialPage.oppositeClikBtn(VideoDetialPage.java:34)
+	at com.youku.cases.SmokeTest.test_case_downLoadTest(SmokeTest.java:154)
+</failure>
+    <system-out>2017-07-25 16:19:15 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:15 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:15 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:15 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 1 times
+2017-07-25 16:19:15 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:15 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 2 times
+2017-07-25 16:19:15 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:15 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 3 times
+2017-07-25 16:19:15 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:15 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 4 times
+2017-07-25 16:19:15 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:15 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+can&apos;t find the element:XCUIElementTypeCell
+2017-07-25 16:19:16 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:16 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:16,首页Cell|控件不存在
+
+2017-07-25 16:19:16 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;缓存&quot;}
+2017-07-25 16:19:16 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:16 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:16 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:16 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;缓存&quot;}
+2017-07-25 16:19:16 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:16 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:16 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:16,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:16,PLAYER DOWNLOAD|控件不存在
+
+2017-07-25 16:19:17 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCollectionView&quot;}
+2017-07-25 16:19:17 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:17 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:17 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:17 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCollectionView&quot;}
+2017-07-25 16:19:17 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:17 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:17 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:17,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:17,缓存面板|控件不存在
+
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;downloadCenter&quot;}
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;downloadCenter&quot;}
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:19,PLAYER DOWNLOADCENTER|控件不存在
+
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;search back&quot;}
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;search back&quot;}
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:19,缓存中心|false|页面加载失败|3006
+
+2017-07-25 16:19:19,缓存中心|false|页面加载失败|3006
+
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;broadcast forward close&quot;}
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;broadcast forward close&quot;}
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:19,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:19,PLAYER DOWNLOADCLOSE|控件不存在
+
+2017-07-25 16:19:21 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeButton&quot;}
+2017-07-25 16:19:21 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+</system-out>
+  </testcase>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_homePageTest" time="0.018"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_minePageTest" time="2.053"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_downLoadTest" time="5.774">
+    <failure message="com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray" type="java.lang.ClassCastException">java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at macaca.client.MacacaClient.findElements(MacacaClient.java:207)
+	at macaca.client.MacacaClient.elementsByClassName(MacacaClient.java:678)
+	at macaca.client.MacacaClient.getElementSelector(MacacaClient.java:434)
+	at macaca.client.MacacaClient.countOfElements(MacacaClient.java:410)
+	at macaca.java.biz.BaseMacacaClient.countOfElment(BaseMacacaClient.java:97)
+	at com.youku.pages.VideoDetialPage.oppositeClikBtn(VideoDetialPage.java:34)
+	at com.youku.cases.SmokeTest.test_case_downLoadTest(SmokeTest.java:154)
+</failure>
+    <system-out>2017-07-25 16:19:23 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:23 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:23 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:23 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 1 times
+2017-07-25 16:19:23 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:23 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 2 times
+2017-07-25 16:19:23 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:23 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 3 times
+2017-07-25 16:19:24 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:24 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 4 times
+2017-07-25 16:19:24 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:24 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+can&apos;t find the element:XCUIElementTypeCell
+2017-07-25 16:19:24 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-25 16:19:24 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:24,首页Cell|控件不存在
+
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;downloadCenter&quot;}
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;downloadCenter&quot;}
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:27,PLAYER DOWNLOADCENTER|控件不存在
+
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;search back&quot;}
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;search back&quot;}
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:27,缓存中心|false|页面加载失败|3006
+
+2017-07-25 16:19:27,缓存中心|false|页面加载失败|3006
+
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;broadcast forward close&quot;}
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+attempt to search the element for 0 times
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;broadcast forward close&quot;}
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/element/0756DA46-91CC-4865-A6C8-F4E9656B76A1/displayed
+2017-07-25 16:19:27 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+2017-07-25 16:19:27,异常捕捉|com.alibaba.fastjson.JSONObject cannot be cast to java.lang.Boolean
+
+2017-07-25 16:19:27,PLAYER DOWNLOADCLOSE|控件不存在
+
+2017-07-25 16:19:29 Request:http://127.0.0.1:3457/wd/hub/session/5078db1b-aa8b-461e-88cf-06d5f4ab6128/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeButton&quot;}
+2017-07-25 16:19:29 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:6,&quot;value&quot;:{&quot;message&quot;:&quot;A session is either terminated or not started&quot;}}
+</system-out>
+  </testcase>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_homePageTest" time="0.019"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_playPageTest" time="0.31"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_searchTest" time="0.063"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_minePageTest" time="1.666"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_subscribePageTest" time="0.384"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_topLinePageTest" time="2.042"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_vipPageTest" time="2.045"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_playPageTest" time="3.664"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_searchTest" time="0.039"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_subscribePageTest" time="2.044"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_topLinePageTest" time="2.042"/>
+  <testcase classname="com.youku.cases.SmokeTest" name="test_case_vipPageTest" time="2.043"/>
+</testsuite>

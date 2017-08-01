@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-IOS">
+              <span class="suite-name border-failed">IOS</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-IOS">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-IOS">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-IOS">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-IOS">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-IOS">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-IOS">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-IOS">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 2 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-IOS" class="hide-methods failed suite-IOS"> (hide)</a> <!-- hide-methods failed suite-IOS -->
+                      <a href="#" panel-name="suite-IOS" class="show-methods failed suite-IOS"> (show)</a> <!-- show-methods failed suite-IOS -->
+                    </span>
+                    <div class="method-list-content failed suite-IOS">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_downLoadTest">test_case_downLoadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_downLoadTest">test_case_downLoadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-IOS -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-IOS" class="hide-methods passed suite-IOS"> (hide)</a> <!-- hide-methods passed suite-IOS -->
+                      <a href="#" panel-name="suite-IOS" class="show-methods passed suite-IOS"> (show)</a> <!-- show-methods passed suite-IOS -->
+                    </span>
+                    <div class="method-list-content passed suite-IOS">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_channelPageTest">test_case_channelPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_channelPageTest">test_case_channelPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_homePageTest">test_case_homePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_homePageTest">test_case_homePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_minePageTest">test_case_minePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_minePageTest">test_case_minePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_playPageTest">test_case_playPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_playPageTest">test_case_playPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_searchTest">test_case_searchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_searchTest">test_case_searchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_subscribePageTest">test_case_subscribePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_subscribePageTest">test_case_subscribePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_topLinePageTest">test_case_topLinePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_topLinePageTest">test_case_topLinePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_vipPageTest">test_case_vipPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOS" title="com.youku.cases.SmokeTest" hash-for-method="test_case_vipPageTest">test_case_vipPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-IOS -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-IOS" class="panel IOS">
+          <div class="suite-IOS-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.youku.cases.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_downLoadTest">
+                  </a> <!-- test_case_downLoadTest -->
+                  <span class="method-name">test_case_downLoadTest</span>
+                  <div class="stack-trace">java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at macaca.client.MacacaClient.findElements(MacacaClient.java:207)
+	at macaca.client.MacacaClient.elementsByClassName(MacacaClient.java:678)
+	at macaca.client.MacacaClient.getElementSelector(MacacaClient.java:434)
+	at macaca.client.MacacaClient.countOfElements(MacacaClient.java:410)
+	at macaca.java.biz.BaseMacacaClient.countOfElment(BaseMacacaClient.java:97)
+	at com.youku.pages.VideoDetialPage.oppositeClikBtn(VideoDetialPage.java:34)
+	at com.youku.cases.SmokeTest.test_case_downLoadTest(SmokeTest.java:154)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_downLoadTest">
+                  </a> <!-- test_case_downLoadTest -->
+                  <span class="method-name">test_case_downLoadTest</span>
+                  <div class="stack-trace">java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at macaca.client.MacacaClient.findElements(MacacaClient.java:207)
+	at macaca.client.MacacaClient.elementsByClassName(MacacaClient.java:678)
+	at macaca.client.MacacaClient.getElementSelector(MacacaClient.java:434)
+	at macaca.client.MacacaClient.countOfElements(MacacaClient.java:410)
+	at macaca.java.biz.BaseMacacaClient.countOfElment(BaseMacacaClient.java:97)
+	at com.youku.pages.VideoDetialPage.oppositeClikBtn(VideoDetialPage.java:34)
+	at com.youku.cases.SmokeTest.test_case_downLoadTest(SmokeTest.java:154)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IOS-class-failed -->
+          <div class="suite-IOS-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.youku.cases.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_channelPageTest">
+                  </a> <!-- test_case_channelPageTest -->
+                  <span class="method-name">test_case_channelPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_channelPageTest">
+                  </a> <!-- test_case_channelPageTest -->
+                  <span class="method-name">test_case_channelPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_homePageTest">
+                  </a> <!-- test_case_homePageTest -->
+                  <span class="method-name">test_case_homePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_homePageTest">
+                  </a> <!-- test_case_homePageTest -->
+                  <span class="method-name">test_case_homePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_minePageTest">
+                  </a> <!-- test_case_minePageTest -->
+                  <span class="method-name">test_case_minePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_minePageTest">
+                  </a> <!-- test_case_minePageTest -->
+                  <span class="method-name">test_case_minePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_playPageTest">
+                  </a> <!-- test_case_playPageTest -->
+                  <span class="method-name">test_case_playPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_playPageTest">
+                  </a> <!-- test_case_playPageTest -->
+                  <span class="method-name">test_case_playPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_searchTest">
+                  </a> <!-- test_case_searchTest -->
+                  <span class="method-name">test_case_searchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_searchTest">
+                  </a> <!-- test_case_searchTest -->
+                  <span class="method-name">test_case_searchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_subscribePageTest">
+                  </a> <!-- test_case_subscribePageTest -->
+                  <span class="method-name">test_case_subscribePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_subscribePageTest">
+                  </a> <!-- test_case_subscribePageTest -->
+                  <span class="method-name">test_case_subscribePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_topLinePageTest">
+                  </a> <!-- test_case_topLinePageTest -->
+                  <span class="method-name">test_case_topLinePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_topLinePageTest">
+                  </a> <!-- test_case_topLinePageTest -->
+                  <span class="method-name">test_case_topLinePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_vipPageTest">
+                  </a> <!-- test_case_vipPageTest -->
+                  <span class="method-name">test_case_vipPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_vipPageTest">
+                  </a> <!-- test_case_vipPageTest -->
+                  <span class="method-name">test_case_vipPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IOS-class-passed -->
+        </div> <!-- panel IOS -->
+        <div panel-name="test-xml-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/roger/my_gitlab_project/youku_testautomation/autoui/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;IOS&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;IOSTest1&quot;&gt;
+    &lt;parameter name=&quot;proxyport&quot; value=&quot;8900&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;3456&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;6f5bdc814734e5e9309145af42dfe710bcfe39d5&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.youku.cases.SmokeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IOSTest1 --&gt;
+  &lt;test name=&quot;IOSTest2&quot;&gt;
+    &lt;parameter name=&quot;proxyport&quot; value=&quot;8910&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;3457&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;a7cf4ecadda076c9677f38f997bdf96215a62d01&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.youku.cases.SmokeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IOSTest2 --&gt;
+  &lt;test name=&quot;IOSTest2(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;proxyport&quot; value=&quot;8910&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;3457&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;a7cf4ecadda076c9677f38f997bdf96215a62d01&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.youku.cases.SmokeTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test_case_downLoadTest&quot;/&gt;
+          &lt;include name=&quot;beforeRunTest&quot;/&gt;
+          &lt;include name=&quot;beforeRunTest&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.youku.cases.SmokeTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IOSTest2(failed) --&gt;
+  &lt;test name=&quot;IOSTest1(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;proxyport&quot; value=&quot;8900&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;3456&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;6f5bdc814734e5e9309145af42dfe710bcfe39d5&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.youku.cases.SmokeTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test_case_downLoadTest&quot;/&gt;
+          &lt;include name=&quot;beforeRunTest&quot;/&gt;
+          &lt;include name=&quot;beforeRunTest&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.youku.cases.SmokeTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IOSTest1(failed) --&gt;
+&lt;/suite&gt; &lt;!-- IOS --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for IOS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IOSTest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IOSTest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IOSTest2(failed) (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IOSTest1(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for IOS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for IOS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_IOS');
+function tableData_IOS() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_case_downLoadTest')
+data.setCell(0, 2, 'com.youku.cases.SmokeTest')
+data.setCell(0, 3, 34800);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_case_channelPageTest')
+data.setCell(1, 2, 'com.youku.cases.SmokeTest')
+data.setCell(1, 3, 33228);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_case_downLoadTest')
+data.setCell(2, 2, 'com.youku.cases.SmokeTest')
+data.setCell(2, 3, 14180);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_case_channelPageTest')
+data.setCell(3, 2, 'com.youku.cases.SmokeTest')
+data.setCell(3, 3, 8075);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_case_playPageTest')
+data.setCell(4, 2, 'com.youku.cases.SmokeTest')
+data.setCell(4, 3, 6105);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_case_playPageTest')
+data.setCell(5, 2, 'com.youku.cases.SmokeTest')
+data.setCell(5, 3, 6090);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_case_minePageTest')
+data.setCell(6, 2, 'com.youku.cases.SmokeTest')
+data.setCell(6, 3, 2052);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_case_subscribePageTest')
+data.setCell(7, 2, 'com.youku.cases.SmokeTest')
+data.setCell(7, 3, 2050);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_case_vipPageTest')
+data.setCell(8, 2, 'com.youku.cases.SmokeTest')
+data.setCell(8, 3, 2045);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_case_subscribePageTest')
+data.setCell(9, 2, 'com.youku.cases.SmokeTest')
+data.setCell(9, 3, 2044);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_case_topLinePageTest')
+data.setCell(10, 2, 'com.youku.cases.SmokeTest')
+data.setCell(10, 3, 2042);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_case_vipPageTest')
+data.setCell(11, 2, 'com.youku.cases.SmokeTest')
+data.setCell(11, 3, 2042);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_case_topLinePageTest')
+data.setCell(12, 2, 'com.youku.cases.SmokeTest')
+data.setCell(12, 3, 2041);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_case_minePageTest')
+data.setCell(13, 2, 'com.youku.cases.SmokeTest')
+data.setCell(13, 3, 2041);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_case_searchTest')
+data.setCell(14, 2, 'com.youku.cases.SmokeTest')
+data.setCell(14, 3, 63);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_case_searchTest')
+data.setCell(15, 2, 'com.youku.cases.SmokeTest')
+data.setCell(15, 3, 39);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_case_homePageTest')
+data.setCell(16, 2, 'com.youku.cases.SmokeTest')
+data.setCell(16, 3, 19);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_case_homePageTest')
+data.setCell(17, 2, 'com.youku.cases.SmokeTest')
+data.setCell(17, 3, 18);
+window.suiteTableData['IOS']= { tableData: data, tableDiv: 'times-div-IOS'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-IOS">
+              </div> <!-- times-div-IOS -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for IOS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-IOS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.youku.cases.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeRunTest(3456, 8900, 6f5bdc814734e5e9309145af42dfe710bcfe39d5)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeRunTest(3457, 8910, a7cf4ecadda076c9677f38f997bdf96215a62d01)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test_case_channelPageTest</span>
+                <span class="method-start">34818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_case_downLoadTest</span>
+                <span class="method-start">68050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_channelPageTest</span>
+                <span class="method-start">88443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_case_downLoadTest</span>
+                <span class="method-start">96518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_homePageTest</span>
+                <span class="method-start">102853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_minePageTest</span>
+                <span class="method-start">102871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_playPageTest</span>
+                <span class="method-start">104924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_homePageTest</span>
+                <span class="method-start">110699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_minePageTest</span>
+                <span class="method-start">110718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_searchTest</span>
+                <span class="method-start">111030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_subscribePageTest</span>
+                <span class="method-start">111093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_playPageTest</span>
+                <span class="method-start">112759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_topLinePageTest</span>
+                <span class="method-start">113143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_vipPageTest</span>
+                <span class="method-start">115185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117231 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">test_case_searchTest</span>
+                <span class="method-start">118849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_subscribePageTest</span>
+                <span class="method-start">118888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_topLinePageTest</span>
+                <span class="method-start">120932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_vipPageTest</span>
+                <span class="method-start">122974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125017 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

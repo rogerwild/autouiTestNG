@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.youku.cases.MinePageTest" time="287.681" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="MinePageTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/roger/my_gitlab_project/youku_testautomation/autoui"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/sm/hj435yss0cb4l3l3n3234jm40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/roger/Documents/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/roger/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.4"/>
+    <property name="user.home" value="/Users/roger"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="roger"/>
+    <property name="java.class.path" value="/Users/roger/Documents/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -s settings.xml test -Dtest=MinePageTest"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/Users/roger/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/roger/Documents/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.youku.cases.MinePageTest" name="test_case_mine" time="287.681">
+    <error message="An attempt was made to operate on a modal dialog when one was not open." type="java.lang.Exception">java.lang.Exception: An attempt was made to operate on a modal dialog when one was not open.
+	at macaca.client.common.Utils.handleStatus(Utils.java:165)
+	at macaca.client.common.Utils.postRequest(Utils.java:115)
+	at macaca.client.common.Utils.request(Utils.java:154)
+	at macaca.client.commands.Alert.acceptAlert(Alert.java:22)
+	at macaca.client.MacacaClient.acceptAlert(MacacaClient.java:85)
+	at com.youku.pages.HistoryPage.clearHistory(HistoryPage.java:41)
+	at com.youku.cases.MinePageTest.test_case_mine(MinePageTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>2017-07-20 11:41:38,执行系统命令|/usr/local/bin/ideviceinstaller -u a7cf4ecadda076c9677f38f997bdf96215a62d01 -U com.youku.hd
+
+2017-07-20 11:41:40,执行系统命令|/usr/local/bin/ideviceinstaller -u a7cf4ecadda076c9677f38f997bdf96215a62d01 -i /Users/roger/my_gitlab_project/youku_testautomation/autoui/app/YoukuHD-NG-Release.ipa
+
+{&quot;desiredCapabilities&quot;:{&quot;reuse&quot;:&quot;3&quot;,&quot;bundleId&quot;:&quot;com.youku.hd&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;udid&quot;:&quot;a7cf4ecadda076c9677f38f997bdf96215a62d01&quot;,&quot;autoAcceptAlerts&quot;:true}}2017-07-20 11:42:06 Request:http://localhost:3456/wd/hub/session:{&quot;desiredCapabilities&quot;:{&quot;reuse&quot;:&quot;3&quot;,&quot;bundleId&quot;:&quot;com.youku.hd&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;udid&quot;:&quot;a7cf4ecadda076c9677f38f997bdf96215a62d01&quot;,&quot;autoAcceptAlerts&quot;:true}}
+2017-07-20 11:42:28 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;reuse&quot;:&quot;3&quot;,&quot;bundleId&quot;:&quot;com.youku.hd&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;udid&quot;:&quot;a7cf4ecadda076c9677f38f997bdf96215a62d01&quot;,&quot;autoAcceptAlerts&quot;:true}}
+2017-07-20 11:42:28 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;topline@2x&quot;}
+2017-07-20 11:42:28 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;8441298D-482A-4532-BA51-7B9848C5972A&quot;,&quot;label&quot;:&quot;topline@2x&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:42:28 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/8441298D-482A-4532-BA51-7B9848C5972A/displayed
+2017-07-20 11:42:32 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+存在screenshot目录
+2017-07-20 11:42:32 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/screenshot
+2017-07-20 11:42:33 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAAMAAAAAKAAAAwAAAAMAAAHwOIFUkM4AAEAASURBVHgB7J0HuBbF+faxYewtllgCdsEOKGA3GmPUqIl+sfxjTayxkNgrdo1ixYKCHlEUsGCjCUgVkI4U6U16770833PPvs+eeefsW87hAO+Be67rYWZnd2dnf+cAu3vfM1NJmEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABCo8gUoV/g54AyRA...more response is ignored..
+2017-07-20 11:42:33,首页|true|页面加载成功
+
+2017-07-20 11:42:33,首页|true|页面加载成功
+
+2017-07-20 11:42:33 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-20 11:42:36 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:[{&quot;ELEMENT&quot;:&quot;17C72972-4DFC-4244-839A-C52F294B1CB1&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},{&quot;ELEMENT&quot;:&quot;F5955C4E-3F66-406D-9D65-BC077733C730&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},{&quot;ELEMENT&quot;:&quot;25DD7284-F65D-4525-90C8-47BB515111F2&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},{&quot;ELEMENT&quot;:&quot;3FCA332C-799B-41B0-820E-2E2B9590EE36&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},...more response is ignored..
+2017-07-20 11:42:36 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/25DD7284-F65D-4525-90C8-47BB515111F2/displayed
+2017-07-20 11:42:37 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:42:37 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeCell&quot;}
+2017-07-20 11:42:40 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:[{&quot;ELEMENT&quot;:&quot;1F070EAC-6F4F-42A0-8898-64E459CBE430&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},{&quot;ELEMENT&quot;:&quot;4C65CDD1-251D-4C6A-A63E-586D6F72673C&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},{&quot;ELEMENT&quot;:&quot;12BCEB03-CFF9-4E6B-8455-AF4F243D4D40&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},{&quot;ELEMENT&quot;:&quot;3CE4AAF6-3237-46F0-AE17-42BF74505D2B&quot;,&quot;label&quot;:&quot;&quot;,&quot;type&quot;:&quot;XCUIElementTypeCell&quot;},...more response is ignored..
+2017-07-20 11:42:40 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/12BCEB03-CFF9-4E6B-8455-AF4F243D4D40/click:{}
+2017-07-20 11:42:46 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:42:46,点击:首页Cell[2]|true|
+
+2017-07-20 11:42:46,点击:首页Cell[2]|true|
+
+2017-07-20 11:45:16 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;缓存&quot;}
+2017-07-20 11:45:19 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;E545B948-C7F9-4E2C-86C6-016C92C4F813&quot;,&quot;label&quot;:&quot;缓存&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:19 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/E545B948-C7F9-4E2C-86C6-016C92C4F813/displayed
+2017-07-20 11:45:20 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+存在screenshot目录
+2017-07-20 11:45:20 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/screenshot
+2017-07-20 11:45:21 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAAMAAAAAKAAAAwAAAAMAACM0uha98gYAAEAASURBVHgB7H0FeB3nmXW3DTVxbMfMzGyBWbJlBhkki2VZzMzMzGTLMobRYbBjpjjsNGnS7nbbbrPtlnbbbbPttlvY//znHWlurmRJlgxZJ3nned47c2e+mfnmu+cOnfOe7xvf+MY3oKFtoBhQDCgGFAOKAcWAYkAxoBhQDCgGFAOKAcWAYkAxoBhQDCgGFAOKAcWAYkAxoBhQDCgG...more response is ignored..
+2017-07-20 11:45:21,视频详情页|true|页面加载成功
+
+2017-07-20 11:45:21,视频详情页|true|页面加载成功
+
+2017-07-20 11:45:21 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeButton&quot;}
+2017-07-20 11:45:24 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:[{&quot;ELEMENT&quot;:&quot;8CD3C623-5DE2-470D-ABBF-DEE4AF1B031E&quot;,&quot;label&quot;:&quot;全部评论 &gt;&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;E21BD43B-F379-4852-802E-82C4E974E1FC&quot;,&quot;label&quot;:&quot;查看全部71条回复&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;E4CBE073-E3AC-443D-A7EC-3063E6C9385C&quot;,&quot;label&quot;:&quot; 406&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;DF3CF388-9DFB-42CD-9921-90FC9EF909E5&quot;,&quot;label&quot;:&quot; 1&quot;,&quot;ty...more response is ignored..
+2017-07-20 11:45:24 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeButton&quot;}
+2017-07-20 11:45:28 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:[{&quot;ELEMENT&quot;:&quot;4C049CA2-9908-41A1-A5FC-8EC72BC1E93F&quot;,&quot;label&quot;:&quot;全部评论 &gt;&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;792997DC-4A6E-4426-A425-2A4B7C0639D1&quot;,&quot;label&quot;:&quot;查看全部71条回复&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;0F7F08E4-CEFE-43B3-84C9-B585D3E4E1DA&quot;,&quot;label&quot;:&quot; 406&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;0A7C1234-AE8E-49E1-A661-58BBCA15EF70&quot;,&quot;label&quot;:&quot; 1&quot;,&quot;ty...more response is ignored..
+2017-07-20 11:45:28 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/1A931011-384C-4466-ACBB-DFED02624385/displayed
+2017-07-20 11:45:29 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:45:29 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/elements:{&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;XCUIElementTypeButton&quot;}
+2017-07-20 11:45:33 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:[{&quot;ELEMENT&quot;:&quot;C18FA431-5AE2-459D-A929-4DF19C908AC5&quot;,&quot;label&quot;:&quot;全部评论 &gt;&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;D191A43A-9F25-468C-808A-CEF0F8294AB1&quot;,&quot;label&quot;:&quot;查看全部71条回复&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;2077A666-63B7-4C0D-A51A-7B5B0C96859A&quot;,&quot;label&quot;:&quot; 406&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;},{&quot;ELEMENT&quot;:&quot;6DACA7E4-5CE8-47B9-B2FF-3D2AA6DA32A4&quot;,&quot;label&quot;:&quot; 1&quot;,&quot;ty...more response is ignored..
+2017-07-20 11:45:33 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/38D11443-60CD-472B-908A-918CC33CE5A0/click:{}
+2017-07-20 11:45:37 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:45:37,点击:SUBSCRIBE BUTTONS[64]|true|
+
+2017-07-20 11:45:37,点击:SUBSCRIBE BUTTONS[64]|true|
+
+2017-07-20 11:45:37 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;user@2x&quot;}
+2017-07-20 11:45:39 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;B4270454-2C05-4A6F-8116-1D1A6C50115A&quot;,&quot;label&quot;:&quot;user@2x&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:39 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/B4270454-2C05-4A6F-8116-1D1A6C50115A/displayed
+2017-07-20 11:45:40 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:45:40 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;user@2x&quot;}
+2017-07-20 11:45:41 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;98484191-C3B9-4CBB-8B05-D4F71D908844&quot;,&quot;label&quot;:&quot;user@2x&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:41 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/98484191-C3B9-4CBB-8B05-D4F71D908844/click:{}
+2017-07-20 11:45:45 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:45:45,点击:底部MineBtn|true|
+
+2017-07-20 11:45:45,点击:底部MineBtn|true|
+
+2017-07-20 11:45:45,个人中心测试|
+
+2017-07-20 11:45:45 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;mtoux&quot;}
+2017-07-20 11:45:46 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;1AF7D517-A30C-42E7-9BEC-B68D19A1C6AD&quot;,&quot;label&quot;:&quot;mtoux&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:46 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/1AF7D517-A30C-42E7-9BEC-B68D19A1C6AD/displayed
+2017-07-20 11:45:47 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:45:47 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;mtoux&quot;}
+2017-07-20 11:45:48 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;634A1A0B-F7BC-4FF8-9014-C3BBEEA29D88&quot;,&quot;label&quot;:&quot;mtoux&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:48 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/634A1A0B-F7BC-4FF8-9014-C3BBEEA29D88/click:{}
+2017-07-20 11:45:50 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:45:50,点击:未登录头像按钮|true|
+
+2017-07-20 11:45:50,点击:未登录头像按钮|true|
+
+2017-07-20 11:45:50 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;游客登录&quot;}
+2017-07-20 11:45:51 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;AEBECD97-725D-4659-A955-361975430CAA&quot;,&quot;label&quot;:&quot;游客登录&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:51 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/AEBECD97-725D-4659-A955-361975430CAA/displayed
+2017-07-20 11:45:52 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:45:52 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;游客登录&quot;}
+2017-07-20 11:45:53 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;097A8AFB-F4C1-461D-9C11-9862F4BAF6CF&quot;,&quot;label&quot;:&quot;游客登录&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:45:53 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/097A8AFB-F4C1-461D-9C11-9862F4BAF6CF/click:{}
+2017-07-20 11:45:55 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:45:55,点击:游客登录按钮|true|
+
+2017-07-20 11:45:55,点击:游客登录按钮|true|
+
+2017-07-20 11:45:57 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;个人资料&quot;}
+2017-07-20 11:45:58 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;E765DAFD-3D5D-41D3-AB86-DBA315CC1FBA&quot;,&quot;label&quot;:&quot;个人资料&quot;,&quot;type&quot;:&quot;XCUIElementTypeStaticText&quot;}}
+2017-07-20 11:45:58 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/E765DAFD-3D5D-41D3-AB86-DBA315CC1FBA/displayed
+2017-07-20 11:45:59 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+存在screenshot目录
+2017-07-20 11:45:59 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/screenshot
+2017-07-20 11:45:59 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAAMAAAAAKAAAAwAAAAMAAAHfaY8kycEAAEAASURBVHgB7J0HvBxluf8FQhURgiBFiohcAaUEBFHgA4ggRZqINCnChQv8ETAUqXJBEAUuqHgBDYqUdBIgjfSEFBKSENJ7T0g9/Zw9/Tz/9zfcGXc3u+dsPdmd/c6HZXdn3nnnne/8zpnMeX7P836hvr7eeMEADaABNBAODUQiEUvlVVdXZ/Gv2tpa04sFAhCAAAQgAAEIQAACEIAA...more response is ignored..
+2017-07-20 11:45:59,个人资料页|true|页面加载成功
+
+2017-07-20 11:45:59,个人资料页|true|页面加载成功
+
+2017-07-20 11:45:59 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;记录&quot;}
+2017-07-20 11:46:00 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;EDF6A1EA-7DBD-484A-8E0C-C73B273DDBA5&quot;,&quot;label&quot;:&quot;记录&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:00 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/EDF6A1EA-7DBD-484A-8E0C-C73B273DDBA5/displayed
+2017-07-20 11:46:01 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:46:01 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;记录&quot;}
+2017-07-20 11:46:01 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;539FFCA9-7D91-4456-A536-381B9806AD0C&quot;,&quot;label&quot;:&quot;记录&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:01 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/539FFCA9-7D91-4456-A536-381B9806AD0C/click:{}
+2017-07-20 11:46:04 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:46:04,点击:记录按钮|true|
+
+2017-07-20 11:46:04,点击:记录按钮|true|
+
+2017-07-20 11:46:06 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;编辑&quot;}
+2017-07-20 11:46:07 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;E24E87AD-05F7-433E-B8D0-30D56E439B90&quot;,&quot;label&quot;:&quot;编辑&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:07 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/E24E87AD-05F7-433E-B8D0-30D56E439B90/displayed
+2017-07-20 11:46:07 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+存在screenshot目录
+2017-07-20 11:46:07 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/screenshot
+2017-07-20 11:46:08 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAAMAAAAAKAAAAwAAAAMAAATcNlkWFIwAAEAASURBVHgB7J0HvBxV3f5RwCCvooD6YkMURWmhahQR6R0E6SJdX0XIPyhViiIIqIAgKgKC1GB6QnojISQEQgjpuem93iS37+035z/PwbPObmb77s3eme/5fCa7O+XMme88uVN+z/mdnZqamgwTDNAAGkAD4dBAY2OjyWaKxWImeWpoaDCaKBCAAAQgAAEIQAACEIAABCAAAQhAAAIQ...more response is ignored..
+2017-07-20 11:46:08,记录页|true|页面加载成功
+
+2017-07-20 11:46:08,记录页|true|页面加载成功
+
+2017-07-20 11:46:08,删除全部记录|
+
+2017-07-20 11:46:08 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;编辑&quot;}
+2017-07-20 11:46:08 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;79ECC2CD-2FCE-4C3D-A5C5-147E69409D22&quot;,&quot;label&quot;:&quot;编辑&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:08 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/79ECC2CD-2FCE-4C3D-A5C5-147E69409D22/displayed
+2017-07-20 11:46:09 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:46:09 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;编辑&quot;}
+2017-07-20 11:46:10 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;369FBD2A-199C-43D1-8E23-93D7233B7D77&quot;,&quot;label&quot;:&quot;编辑&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:10 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/369FBD2A-199C-43D1-8E23-93D7233B7D77/click:{}
+2017-07-20 11:46:12 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:46:12,点击:编辑按钮|true|
+
+2017-07-20 11:46:12,点击:编辑按钮|true|
+
+2017-07-20 11:46:13 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;全选&quot;}
+2017-07-20 11:46:14 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;64E0D359-F7EB-4984-9816-721F55E343F1&quot;,&quot;label&quot;:&quot;全选&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:14 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/64E0D359-F7EB-4984-9816-721F55E343F1/displayed
+2017-07-20 11:46:15 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+2017-07-20 11:46:15 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element:{&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;全选&quot;}
+2017-07-20 11:46:16 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;7CD9E70C-51D5-4C69-A1B3-20379C4672C4&quot;,&quot;label&quot;:&quot;全选&quot;,&quot;type&quot;:&quot;XCUIElementTypeButton&quot;}}
+2017-07-20 11:46:16 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/element/7CD9E70C-51D5-4C69-A1B3-20379C4672C4/click:{}
+2017-07-20 11:46:18 Response:{&quot;sessionId&quot;:&quot;&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}
+2017-07-20 11:46:18,点击:全选按钮|true|
+
+2017-07-20 11:46:18,点击:全选按钮|true|
+
+2017-07-20 11:46:19 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/actions:{&quot;actions&quot;:[{&quot;x&quot;:731,&quot;y&quot;:753,&quot;type&quot;:&quot;tap&quot;}]}
+2017-07-20 11:46:21 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+2017-07-20 11:46:22 Request:http://localhost:3456/wd/hub/session/9761fda0-753d-4281-bf5d-60e0fc1b3d6d/accept_alert:{}
+2017-07-20 11:46:25 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:27,&quot;value&quot;:&quot;&quot;}
+200
+2017-07-20 11:46:26 Response:{&quot;sessionId&quot;:&quot;9761fda0-753d-4281-bf5d-60e0fc1b3d6d&quot;,&quot;status&quot;:0}
+1034
+</system-out>
+  </testcase>
+</testsuite>

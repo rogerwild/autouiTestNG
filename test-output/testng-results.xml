@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="0" total="9" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2017-07-31T10:14:01Z" finished-at="2017-07-31T10:14:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2017-07-31T10:14:01Z" finished-at="2017-07-31T10:14:01Z">
+      <class name="com.youku.cases.SmokeTest">
+        <test-method status="FAIL" signature="beforeRunTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunTest" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'port' is required by @Configuration on method beforeRunTest but has not been marked @Optional or defined
+in /private/var/folders/sm/hj435yss0cb4l3l3n3234jm40000gn/T/testng-eclipse--274038684/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'port' is required by @Configuration on method beforeRunTest but has not been marked @Optional or defined
+in /private/var/folders/sm/hj435yss0cb4l3l3n3234jm40000gn/T/testng-eclipse--274038684/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunTest -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_channelPageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_channelPageTest" duration-ms="4" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_channelPageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_downLoadTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_downLoadTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_downLoadTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_homePageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_homePageTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_homePageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_minePageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_minePageTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_minePageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_playPageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_playPageTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_playPageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_searchTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_searchTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_searchTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_subscribePageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_subscribePageTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_subscribePageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_topLinePageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_topLinePageTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_topLinePageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="beforeRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="beforeRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunCase -->
+        <test-method status="SKIP" signature="test_case_vipPageTest()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="test_case_vipPageTest" duration-ms="1" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_vipPageTest -->
+        <test-method status="SKIP" signature="afterRunCase()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="afterRunCase" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunCase -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.youku.cases.SmokeTest@46238e3f]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-31T18:14:01Z" finished-at="2017-07-31T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.youku.cases.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [IOS]" parallel="tests">
+  <parameter name="proxyport" value="8900"/>
+  <parameter name="port" value="3456"/>
+  <parameter name="udid" value="a7cf4ecadda076c9677f38f997bdf96215a62d01"/>
+  <test name="IOSTest1">
+    <parameter name="proxyport" value="8900"/>
+    <parameter name="port" value="3456"/>
+    <parameter name="udid" value="a7cf4ecadda076c9677f38f997bdf96215a62d01"/>
+    <classes>
+      <class name="com.youku.cases.SmokeTest"/>
+    </classes>
+  </test> <!-- IOSTest1 -->
+  <test name="IOSTest1(failed)" parallel="tests">
+    <parameter name="proxyport" value="8900"/>
+    <parameter name="port" value="3456"/>
+    <parameter name="udid" value="a7cf4ecadda076c9677f38f997bdf96215a62d01"/>
+    <classes>
+      <class name="com.youku.cases.SmokeTest">
+        <methods>
+          <include name="test_case_downLoadTest"/>
+          <include name="test_case_subscribePageTest"/>
+          <include name="test_case_vipPageTest"/>
+          <include name="test_case_homePageTest"/>
+          <include name="beforeRunTest"/>
+          <include name="test_case_minePageTest"/>
+          <include name="test_case_searchTest"/>
+          <include name="test_case_playPageTest"/>
+          <include name="test_case_topLinePageTest"/>
+          <include name="test_case_channelPageTest"/>
+        </methods>
+      </class> <!-- com.youku.cases.SmokeTest -->
+    </classes>
+  </test> <!-- IOSTest1(failed) -->
+</suite> <!-- Failed suite [IOS] -->
