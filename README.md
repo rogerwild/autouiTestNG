@@ -1,0 +1,2 @@
+# autouiTestNG
+底层基于Macaca，应用层基于biz，上层使用TestNG的支持多机并行的UI自动化测试
